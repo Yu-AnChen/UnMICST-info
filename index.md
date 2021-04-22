@@ -40,10 +40,6 @@ We provide training data, annotations and models that can be freely downloaded h
   </a>
 </figure>
 
-{::comment}
-[minervaIntro <br> ![](images/minervaIntro.jpg){:width="400px" height="391px"}]({{ site.baseurl }}{% link stories/crc01-stack.html %})
-{:/comment}
-
 ## About Minerva
 ### Exploring the primary image data in Yapp et al. (2021)
 
