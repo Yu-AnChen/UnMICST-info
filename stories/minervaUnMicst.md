@@ -1,5 +1,5 @@
 ---
 nav_order: 300
-layout: index
+layout: story
 exhibit_json: ../exhibits/exhibit.json
 ---
