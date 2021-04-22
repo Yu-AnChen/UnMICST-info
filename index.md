@@ -15,9 +15,15 @@ Nuclei segmentation, especially for tissues, is a challenging and unsolved probl
 ![](/images/probmaps.png)
 
 ## Contents
-* [Data Overviews](#data-overviews)
+* [Training data and models](#downloading-training-data-and-models)
+* [Data Overviews](#data-explorations)
 * [About Minerva](#about-minerva)
 
+## Downloading training data and models
+We provide training data, annotations and models that can be freely downloaded here: https://www.dropbox.com/sh/3aqp83f5w1pxk0y/AABFgNRMJD2EvfSLFgCrXrBba?dl=0
+/models contain UNet, Mask RCNN and PSPNet model files. Also included are scripts to either train or run specific models where the filename indicates the training scenario. Ie. DNA_NES_Aug indicates the model has been trained with DNA, the nuclear envelope staining and real augmentation. DNA_NoAug indicates the model was only trained on the DNA channel.
+/training data contains a .rar file with the training, validation, and test data used to train the aforementioned UNet, Mask RCNN, and PSPNet models. 
+-compiledTrainingExamples.rar contains the raw images and annotated labels prior to splitting into tiles and into a train/validation/test split. Approximately 10,400 nuclei from 7 tissue types (normal ovary, small intestine, tonsil, and cancers of colon, brain, lung, and prostate) were manually annotated.
 
 ## Data Explorations
 
@@ -51,8 +57,6 @@ general.
 
 We provide a Minerva story with this paper to provide access to minimally processed Level 2 images with annotation and interpretation kept to a bare minimum.
 
-## Downloading training data and models
-https://www.dropbox.com/sh/3aqp83f5w1pxk0y/AABFgNRMJD2EvfSLFgCrXrBba?dl=0
 
 
 
