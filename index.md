@@ -59,6 +59,7 @@ general.
 
 We provide a Minerva story with this paper to provide access to minimally processed Level 2 images with annotation and interpretation kept to a bare minimum.
 
-
+## Funding Sources
+NCI U2C-CA233262, NCI U54-CA225088, CCSP Supplemental Award, Gift from the Ludwig Institute for Cancer Research
 
 
