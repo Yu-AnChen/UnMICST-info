@@ -34,7 +34,7 @@ We provide training data, annotations and models that can be freely downloaded h
 ## Data Explorations
 
 <figure class="figure-story">
-  <a href="{{ site.baseurl }}{% link stories/crc01-introduction.md %}">
+  <a href="{{ site.baseurl }}{% link stories/minervaUnMicst.md %}">
     <img src="{{ site.baseurl }}/images/minervaIntro.jpg">
     <figcaption>minerva introduction</figcaption>
   </a>
