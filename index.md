@@ -20,11 +20,11 @@ Nuclei segmentation, especially for tissues, is a challenging and unsolved probl
 
 ## Download training data and models
 We provide training data, annotations and models that can be freely downloaded here: https://www.dropbox.com/sh/3aqp83f5w1pxk0y/AABFgNRMJD2EvfSLFgCrXrBba?dl=0<br>
-`/models` contains UNet, Mask RCNN and PSPNet model files. Also included are scripts to either train or run specific models where the filename indicates the training scenario. Ie. DNA_NES_Aug indicates the model has been trained with DNA, the nuclear envelope staining and real augmentation. DNA_NoAug indicates the model was only trained on the DNA channel.<br>
+1. `/models` contains UNet, Mask RCNN and PSPNet model files. Also included are scripts to either train or run specific models where the filename indicates the training scenario. Ie. DNA_NES_Aug indicates the model has been trained with DNA, the nuclear envelope staining and real augmentation. DNA_NoAug indicates the model was only trained on the DNA channel.<br>
 <br>
-`/training data` contains a .rar file with the training, validation, and test data used to train the aforementioned UNet, Mask RCNN, and PSPNet models. <br>
+2. `/training data` contains a .rar file with the training, validation, and test data used to train the aforementioned UNet, Mask RCNN, and PSPNet models. <br>
 <br>
-`compiledTrainingExamples.rar` contains the raw images and annotated labels prior to splitting into tiles and into a train/validation/test split. Approximately 10,400 nuclei from 7 tissue types (normal ovary, small intestine, tonsil, and cancers of colon, brain, lung, and prostate) were manually annotated.<br>
+3. `compiledTrainingExamples.rar` contains the raw images and annotated labels prior to splitting into tiles and into a train/validation/test split. Approximately 10,400 nuclei from 7 tissue types (normal ovary, small intestine, tonsil, and cancers of colon, brain, lung, and prostate) were manually annotated.<br>
 
 ### Parameter list
 1. `--outputPath` : specify where to save the output files
