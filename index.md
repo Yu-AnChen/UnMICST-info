@@ -10,8 +10,7 @@ toc: true
 </p>
 
 ## Introduction
-Nuclei segmentation, especially for tissues, is a challenging and unsolved problem. Convolutional neural networks are particularly well-suited for this task: separating the foreground class (nuclei pixels) from the background class. UnMICST generates probability maps where the intensity at each pixel defines how confident the pixel has been correctly classified to the aforementioned classes. These maps can make downstream image binarization more accurate using tools such as s3segmenter. https://github.com/HMS-IDAC/S3segmenter. UnMICST currently uses the UNet architecture (Ronneberger et al., 2015) but Mask R-CNN and Pyramid Scene Parsing (PSP)Net are coming very soon! **The concept, models, and training data are featured here: https://www.biorxiv.org/content/10.1101/2021.04.02.438285v1 **
-
+Nuclei segmentation, especially for tissues, is a challenging and unsolved problem. Convolutional neural networks are particularly well-suited for this task: separating the foreground class (nuclei pixels) from the background class. UnMICST generates probability maps (in the case of semantic segmentation) where the intensity at each pixel defines how confident the pixel has been correctly classified to the aforementioned classes, and bounding boxes with binary masks (instance segmentation). 
 ![](/images/probmaps.png)
 
 ## Contents
@@ -27,6 +26,10 @@ We provide training data, annotations and models that can be freely downloaded h
 <br>
 `compiledTrainingExamples.rar` contains the raw images and annotated labels prior to splitting into tiles and into a train/validation/test split. Approximately 10,400 nuclei from 7 tissue types (normal ovary, small intestine, tonsil, and cancers of colon, brain, lung, and prostate) were manually annotated.<br>
 
+### Parameter list
+1. `--outputPath` : specify where to save the output files
+2. `--channel` : specify the channel(s) to be used. For DNA only models, only one channel should be specified. For DNA_NES models, use 2 channels ie. `--channel 0 3`
+3. `--scalingFactor` : an upsample or downsample factor if your pixel sizes are mismatched from the dataset.
 
 ## Data Explorations
 
