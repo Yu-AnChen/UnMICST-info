@@ -41,7 +41,7 @@ We provide training data, annotations and models that can be freely downloaded h
 </figure>
 
 {::comment}
-[CRC01 Z-stack <br> ![](images/thumbnail-crc01-stack.jpg){:width="400px" height="391px"}]({{ site.baseurl }}{% link stories/crc01-stack.html %})
+[minervaIntro <br> ![](images/minervaIntro.jpg){:width="400px" height="391px"}]({{ site.baseurl }}{% link stories/crc01-stack.html %})
 {:/comment}
 
 ## About Minerva
