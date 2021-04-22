@@ -15,7 +15,7 @@ Nuclei segmentation, especially for tissues, is a challenging and unsolved probl
 
 ## Contents
 * [Training data and models](#downloading-training-data-and-models)
-* [Data Overviews](#data-explorations)
+* [Data Exploration](#data-explorations)
 * [About Minerva](#about-minerva)
 
 ## Downloading training data and models
@@ -35,7 +35,7 @@ We provide training data, annotations and models that can be freely downloaded h
 
 <figure class="figure-story">
   <a href="{{ site.baseurl }}{% link stories/minervaUnMicst.md %}">
-    <img src="{{ site.baseurl }}/images/minervaIntro.jpg">
+    <img src="{{ site.baseurl }}/images/minervaIntro.JPG">
     <figcaption>minerva introduction</figcaption>
   </a>
 </figure>
