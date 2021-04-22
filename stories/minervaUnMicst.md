@@ -1,5 +1,5 @@
 ---
 nav_order: 300
-layout: exhibit
+layout: index
 exhibit_json: ../exhibits/exhibit.json
 ---
