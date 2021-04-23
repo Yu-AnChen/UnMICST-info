@@ -30,7 +30,7 @@ We provide training data, annotations and models that can be freely downloaded h
 3.`compiledTrainingExamples.rar` contains the raw images and annotated labels prior to splitting into tiles and into a train/validation/test split. Approximately 10,400 nuclei from 7 tissue types (normal ovary, small intestine, tonsil, and cancers of colon, brain, lung, and prostate) were manually annotated.<br>
 
 ### UnMICST-U (UNet) instructions
-Download code and `ImageScience` folder from `code/UnMICST-U` folder. Download models from `model` folder and unzip to same level as script file. Run model on new images by `python <script name>.py <append parameters below>
+Download code and `ImageScience` folder from `code/UnMICST-U` folder. Download models from dropbox `models` folder and unzip to same level as script file. Run model on new images by `python <script name>.py <append parameters below>
 1. `--outputPath` : specify where to save the output files
 2. `--channel` : specify the channel(s) to be used. For DNA only models, only one channel should be specified. For DNA_NES models, use 2 channels ie. `--channel 0 3`
 3. `--scalingFactor` : an upsample or downsample factor if your pixel sizes are mismatched from the dataset.
